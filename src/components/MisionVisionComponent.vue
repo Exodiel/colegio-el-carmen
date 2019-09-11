@@ -8,7 +8,7 @@
 
         <h1 itemprop="name"><strong>Visión</strong></h1>
         <hr>
-        <p itemprop="description">Consolidamos como institución educativa emblemática  referente de la región formadora de bachilleres con mentalidad internacional competente para el mundo, cimentada en una educación integral, moderna, de calidad y calidez; con conciencia social, respetuoso de los derechos humanos y de la naturaleza.</p>
+        <p itemprop="description">Consolidarnos como institución educativa emblemática  referente de la región formadora de bachilleres con mentalidad internacional competente para el mundo, cimentada en una educación integral, moderna, de calidad y calidez; con conciencia social, respetuoso de los derechos humanos y de la naturaleza.</p>
 
       </div>
     </article>

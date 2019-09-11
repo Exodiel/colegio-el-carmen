@@ -4,7 +4,7 @@
 
     <a-menu 
       mode="horizontal"
-      :style="{ lineHeight: '64px' }"
+      :style="{ lineHeight: '70px' }"
       
     >
       <a-menu-item >
@@ -57,7 +57,7 @@
           <router-link to="/basica-media">Básica Media</router-link>
         </a-menu-item>
         <a-menu-item key="setting:11">
-          <router-link to="/bachillerato-bgu">Bachilletaro B.G.U</router-link>
+          <router-link to="/bachillerato-bgu">Básica Superior y Bachilleratos</router-link>
         </a-menu-item>
       </a-sub-menu>
 
@@ -148,7 +148,7 @@
 .logo {
   background-size: cover;
   width: 120px;
-  height: 30px;
+  height: 40px;
   margin: 16px 0 16px 0;
   border-radius: 2px;
 }

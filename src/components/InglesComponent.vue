@@ -108,14 +108,14 @@ ul {
       font-size: 0.8em;
       grid-area: content;
       img {
-        height: 200px;
+        height: 250px;
       }
     }
     @media (min-width: 481px) and (max-width: 767px) {
       font-size: 1em;
       grid-area: content;
       img {
-        height: 250px;
+        height: 300px;
       }
     }
     @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -146,7 +146,7 @@ ul {
       grid-column-start: 2;
       grid-column-end: 4;
       img {
-        height: 450px;
+        height: 500px;
       }
     }
   }
