@@ -87,36 +87,49 @@
       </a-sub-menu>
 
       <a-sub-menu key="5">
-        <span slot="title" class="submenu-title-wrapper">BI</span>
+        <span slot="title" class="submenu-title-wrapper">Personal de Apoyo</span>
         <a-menu-item key="setting:19">
-          <router-link to="/coordinadores">Coodinadores</router-link>
+          <router-link to="/doctor">Doctor</router-link>
         </a-menu-item>
         <a-menu-item key="setting:20">
+          <router-link to="/auxiliares">Auxiliares</router-link>
+        </a-menu-item>
+        <a-menu-item key="setting:31">
+          <router-link to="/dece">DECE</router-link>
+        </a-menu-item>
+      </a-sub-menu>
+
+      <a-sub-menu key="6">
+        <span slot="title" class="submenu-title-wrapper">Bachillerato Internacional</span>
+        <a-menu-item key="setting:21">
+          <router-link to="/coordinadores">Coodinadores</router-link>
+        </a-menu-item>
+        <a-menu-item key="setting:22">
           <router-link to="/docentes">Docentes</router-link>
         </a-menu-item>
         <a-sub-menu>
           <span slot="title" class="submenu-title-wrapper">Asignaturas</span>
-          <a-menu-item key="setting:21">
+          <a-menu-item key="setting:23">
             Estudios Matemáticos
             <a href="https://ueecmatematicasbi.blogspot.com/" target="_blank"></a>
           </a-menu-item>
-          <a-menu-item key="setting:22">
+          <a-menu-item key="setting:24">
             AB Inition
             <a href="https://ueecenglishabinitio.blogspot.com/" target="_blank"></a>
           </a-menu-item>
-          <a-menu-item key="setting:23">
+          <a-menu-item key="setting:25">
             Sociedad e Individuos
             <a href="https://ueechistoriajchbi.blogspot.com/" target="_blank"></a>
           </a-menu-item>
-          <a-menu-item key="setting:24">
+          <a-menu-item key="setting:26">
             Español A:Literatura
             <a href="https://ueeclalbi.blogspot.com/" target="_blank"></a>
           </a-menu-item>
-          <a-menu-item key="setting:25">
+          <a-menu-item key="setting:27">
             Química
             <a href="https://ueecquimicabi.blogspot.com/" target="_blank"></a>
           </a-menu-item>
-          <a-menu-item key="setting:26">
+          <a-menu-item key="setting:28">
             Gestión Empresarial
             <a href="https://ueecgebi.blogspot.com/" target="_blank"></a>
           </a-menu-item>
@@ -124,15 +137,15 @@
 
         <a-sub-menu>
           <span slot="title" class="submenu-title-wrapper">Componentes</span>
-          <a-menu-item key="setting:27">
+          <a-menu-item key="setting:29">
             CAS
             <a href="https://casbiueec.blogspot.com/" target="_blank"></a>
           </a-menu-item>
-          <a-menu-item key="setting:28">
+          <a-menu-item key="setting:30">
             Monografía
             <a href="https://ueecmonobi.blogspot.com/" target="_blank"></a>
           </a-menu-item>
-          <a-menu-item key="setting:29">
+          <a-menu-item key="setting:31">
             Teoría del Conocimiento
             <a href="https://ueectdcbi.blogspot.com/" target="_blank"></a>
           </a-menu-item>

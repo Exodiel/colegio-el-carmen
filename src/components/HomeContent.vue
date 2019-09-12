@@ -9,33 +9,27 @@
           <b>Nuestro lema:</b>
           <br />
           <i>"Camino a la excelencia educativa para cumplir con el compromiso social de la educación"</i>
-          <br/>
-          <button class="box__button">
-            
-            <router-link to="/galeria">Ver galería</router-link>
-          </button>
+          <br />
+
+          <router-link to="/galeria">
+            <button class="box__button">Ver Galería</button>
+          </router-link>
         </p>
-        <h2 class="box__footer">
-          Nosotros somos triunfadores
-        </h2>
+        <h2 class="box__footer">Nosotros somos triunfadores</h2>
       </div>
     </div>
   </a-layout-content>
 </template>
-<script>
-export default {
-  data(){
-    return {
-      path: "/galeria"
-    }
-  }
-}
-</script>
+
 <style lang="scss" scoped>
+a {
+  text-decoration: none;
+  color: #e0e0e0;
+}
 .container {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(5, 1fr);
   width: 100%;
   background: url("../assets/content.jpg") center/cover no-repeat;
   background-attachment: fixed;
@@ -71,20 +65,21 @@ export default {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 25% 50% auto;
-    grid-template-areas: "title title"
-                          ". ."
-                          "footer footer";
+    grid-template-areas:
+      "title title"
+      ". ."
+      "footer footer";
     grid-gap: 20px;
-    justify-self: center; 
+    justify-self: center;
     align-self: center;
     padding: 1em;
-    background: #E0E0E0;
+    background: #e0e0e0;
     z-index: 10;
-    color:rgb(46, 45, 45);
+    color: rgb(46, 45, 45);
     border-radius: 5px;
-    
-    .box__title{
-      padding-top: .5em;
+
+    .box__title {
+      padding-top: 0.5em;
       color: rgb(46, 45, 45);
       justify-self: center;
       align-self: center;
@@ -95,21 +90,20 @@ export default {
       align-self: center;
       grid-row-start: 2;
     }
-    .box__button{
+    .box__button {
       background-color: #530707;
-      
-      padding: .5rem;
+      padding: 0.5rem;
       margin-top: 1rem;
       border-radius: 5px;
       cursor: pointer;
-      transition: transform .05s;
-      
-      &:hover{
+      transition: transform 0.05s;
+
+      &:hover {
         background-color: lighten($color: #530707, $amount: 3);
       }
-      a{
+      a {
         text-decoration: none;
-        color: #E0E0E0 !important;
+        color: #e0e0e0 !important;
       }
     }
     .box__picture {
@@ -118,7 +112,7 @@ export default {
       align-self: center;
       border-radius: 3px;
     }
-    .box__footer{
+    .box__footer {
       grid-row-start: 3;
       color: rgb(46, 45, 45);
       justify-self: center;
@@ -127,14 +121,14 @@ export default {
     }
 
     @media (min-width: 320px) and (max-width: 480px) {
-      font-size: .65em;
+      font-size: 0.6em;
       width: 250px;
       height: 250px;
       grid-column-start: 3;
       grid-column-end: 4;
     }
     @media (min-width: 481px) and (max-width: 767px) {
-      font-size: .8em;
+      font-size: 0.8em;
       width: 400px;
       height: 300px;
       grid-column-start: 3;

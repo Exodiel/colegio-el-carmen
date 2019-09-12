@@ -104,6 +104,21 @@ export default new Router({
       component: () => import('./views/AreasPedagogicas/CienciasNaturales.vue')
     },
     {
+      path: '/doctor',
+      name: 'doctor',
+      component: () => import('./views/PersonalApoyo/Doctor.vue')
+    },
+    {
+      path: '/auxiliares',
+      name: 'auxiliares',
+      component: () => import('./views/PersonalApoyo/Auxiliares.vue')
+    },
+    {
+      path: '/dece',
+      name: 'dece',
+      component: () => import('./views/PersonalApoyo/Dece.vue')
+    },
+    {
       path: '/coordinadores',
       name: 'coordinadores',
       component: () => import('./views/BI/Coordinadores.vue')
